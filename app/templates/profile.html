@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<h1 class="page-header">Profile</h1>
+
+<div id="box">
+    <div id="pic">
+    
+
+<img src="{{url_for('static', filename='romz.jpg')}}" />
+</div>
+<div id="message">
+<p class="lead"> Todays Date: {{ time }}</p>
+<br>
+<p class="lead"> Username: Romario Martin</p>
+<p class="lead"> Gender: M</p>
+<p class="lead"> Age: 22</p>
+<p class="lead"> Id Number: 62007878437</p>
+<br><br>
+<p class="lead"> I am legendary</p>
+
+</div>
+</div>
+{% endblock %}
